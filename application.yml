@@ -1,0 +1,15 @@
+﻿spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+    application:
+     name: springcloud-config-comac-dev
+---
+spring:
+  profiles: test
+    application:
+     name: springcloud-config-comac-test
+
